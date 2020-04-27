@@ -66,10 +66,17 @@ return [
 				],
 			],
 			'common' => [
+                                'content' => [
+                                        'baseurl' => public_path( 'http://favr.xyz/' ),
+                                ],
 				'template' => [
-					// 'baseurl' => public_path( 'packages/aimeos/shop/themes/elegance' ),
+					'baseurl' => public_path( 'packages/aimeos/shop/themes/elegance' ),
 				],
 			],
+        		'email' => array(
+            			'from-email' => 'demo@aimeos.org',
+            			'from-name' => 'Demo shop',
+        		),
 		],
 	],
 
