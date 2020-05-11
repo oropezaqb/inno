@@ -7,10 +7,13 @@
 
 	@yield('aimeos_header')
 
-	<title>Aimeos on Laravel</title>
+	<title>Favr Albay</title>
 
 	<link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="{{ asset('css/aimeos.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/demo.css') }}" rel="stylesheet">
+	<style>.aimeos.basket-mini, .aimeos.locale-select { clear: none; }</style>
 
 	@yield('aimeos_styles')
 </head>
@@ -18,7 +21,7 @@
 
 	<nav class="navbar navbar-expand-md navbar-light" style="margin-bottom: 2em">
 		<a class="navbar-brand" href="/">
-			<img src="http://aimeos.org/fileadmin/template/icons/logo.png" height="20" title="Aimeos Logo">
+			<img src="{{ asset('img/logo.png') }}" height="40" width="160" title="Favr Logo">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -49,6 +52,26 @@
 		@yield('aimeos_aside')
 		@yield('content')
 	</div>
+
+    <div class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div>
+              <h1>Get in touch</h1>
+              <ul>
+                <li><a href="https://twitter.com/favrxyz">Twitter</a></li>
+                <li><a href="https://www.facebook.com/favr.xyz">Facebook</a></li>
+                <li><a href="https://instagram.com/favr.xyz">Instagram</a></li>
+                <li><a href="mailto:favr.xyz@gmail.com">Gmail</a></li>
+                <li><a href="sms:+639175197603">Message: 0917.519.7603</a></li>
+                <li><a href="tel:+639175197603">Call: 0917.519.7603</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

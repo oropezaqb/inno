@@ -74,8 +74,9 @@ return [
 				],
 			],
         		'email' => array(
-            			'from-email' => 'demo@aimeos.org',
-            			'from-name' => 'Demo shop',
+            			'from-email' => 'favr.xyz@gmail.com',
+            			'from-name' => 'Favr Sales',
+                                'bcc-email' => 'oropeza.qb@gmail.com',
         		),
 		],
 	],
