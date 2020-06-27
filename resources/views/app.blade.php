@@ -7,13 +7,13 @@
 
 	@yield('aimeos_header')
 
-	<title>Favr Albay</title>
+	<title>Favr Delivery Services</title>
 
 	<link type="text/css" rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto:400,300'>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link href="{{ asset('css/aimeos.css') }}" rel="stylesheet">
-	<link href="{{ asset('css/demo.css') }}" rel="stylesheet">
-	<style>.aimeos.basket-mini, .aimeos.locale-select { clear: none; }</style>
+        <link href="{{ asset('css/aimeos.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/demo.css') }}" rel="stylesheet">
+        <style>.aimeos.basket-mini, .aimeos.locale-select { clear: none; }</style>
 
 	@yield('aimeos_styles')
 </head>
@@ -21,7 +21,7 @@
 
 	<nav class="navbar navbar-expand-md navbar-light" style="margin-bottom: 2em">
 		<a class="navbar-brand" href="/">
-			<img src="{{ asset('img/logo.png') }}" height="40" width="160" title="Favr Logo">
+			<img src="{{ asset('img/logo2.png') }}" height="60" width="240" title="Favr Logo">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>

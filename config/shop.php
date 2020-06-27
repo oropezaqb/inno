@@ -78,6 +78,25 @@ return [
             			'from-name' => 'Favr Sales',
                                 'bcc-email' => 'oropeza.qb@gmail.com',
         		),
+                        'checkout' => [
+				'standard' => [
+					'address' => [
+						'billing' => [
+							'mandatory' => array(
+								'order.base.address.salutation',
+								'order.base.address.firstname',
+								'order.base.address.lastname',
+								'order.base.address.address1',
+								'order.base.address.postal',
+								'order.base.address.city',
+								'order.base.address.languageid',
+								'order.base.address.email',
+								'order.base.address.telephone',
+							),
+						],
+					],
+				],
+			],
 		],
 	],
 
